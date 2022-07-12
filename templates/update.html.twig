@@ -1,0 +1,23 @@
+{% extends 'admin/layout.html.twig' %}
+
+
+
+{% block main %}
+    <h1>CRM</h1>
+<form action="post">
+<label for="name"></label>
+<input type="text" name="name" class="form-controller" placeholder="enter name"></input>
+<label for="name"></label>
+<input type="email" name="mail" class="form-controller" placeholder="enter email"></input>
+<label for="phone_number"></label>
+<input type="number" name="number" class="form-controller" placeholder="enter number"></input>
+
+    
+
+        <button type="submit" name="update" class="btn btn-primary">
+           
+        </button>
+       
+    </form>
+{% endblock %}
+
